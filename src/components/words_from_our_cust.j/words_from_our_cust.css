@@ -1,0 +1,17 @@
+@media only screen and (max-width: 800px) {
+  .carousel-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .active {
+    float: none;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    position: relative;
+  }
+}
+.sec-testimonials {
+  padding-top: 10px !important;
+}

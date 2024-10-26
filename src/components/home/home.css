@@ -1,0 +1,142 @@
+/* Resets */
+hr {
+  margin-left: 0;
+  max-width: 40px;
+}
+
+/* Jumbotron (hero) */
+.jumbotron {
+  position: relative;
+  background: url(https://cdn.dribbble.com/users/1214223/screenshots/4260638/media/3a37b85eb582ded9da523c94930b1c28.gif)
+    no-repeat top center / cover;
+
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.221);
+  }
+
+  .container {
+    padding: 75px 0;
+    height: 104vh;
+  }
+
+  h1,
+  .lead {
+    color: #fffffffa;
+    text-shadow: 2px 0px 2px rgb(0, 0, 0);
+  }
+}
+
+/* Bustom button */
+.btn-primary {
+  background: #1096fc;
+  border: 0;
+
+  &:hover {
+    background-color: darken(#1096fc, 7%);
+  }
+}
+.feature-icon-shed {
+  height: 200px;
+  max-width: 250px;
+  width: 250px !important;
+  /* aspect-ratio: 16/15; */
+}
+/* Features */
+.sec-features {
+  padding-bottom: 0 !important;
+  .row {
+    &:nth-of-type(n + 2) {
+      margin-top: 160px;
+    }
+
+    &:last-of-type {
+      margin-bottom: 160px;
+    }
+  }
+
+  .feature-icon {
+    max-width: 150px;
+  }
+}
+
+/* Testimonials */
+.sec-testimonials {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+/* Carousel */
+.carousel-indicators {
+  bottom: -30px;
+
+  li {
+    background-color: rgba(33, 33, 33, 0.1);
+
+    &:focus,
+    &:hover {
+      background-color: rgba(33, 33, 33, 0.5);
+    }
+  }
+
+  .active {
+    background: rgba(33, 33, 33, 0.75);
+  }
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  & {
+    color: #212121;
+  }
+
+  &:focus,
+  &:hover {
+    color: #111;
+  }
+}
+.cus-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Footer */
+.footer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background: #212121;
+
+  li {
+    &:nth-of-type(n + 2) {
+      margin-left: 8px;
+    }
+  }
+
+  a {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: color 0.235s ease-in-out;
+
+    &:focus,
+    &:hover {
+      color: rgba(255, 255, 255, 0.25);
+    }
+  }
+}
+.Carousel {
+  height: fit-content;
+}
+@media only screen and (max-width: 600px) {
+  .jumbotron {
+    background-size: 440px;
+    background-position: center bottom;
+    background-color: #466b79fc;
+    border: none;
+    height: auto;
+  }
+}
