@@ -1,18 +1,18 @@
-import React from "react";
+// import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+// import { Carousel } from "react-responsive-carousel";
 import "./home.css";
 import img1 from "../../assets/klipartz.png";
 // import img2 from "../../assets/k.png";
 import img3 from "../../assets/shed.png";
 import img4 from "../../assets/shed2.png";
 
-import image1 from "../../assets/workphotos/image1.jpeg";
-import image2 from "../../assets/workphotos/image2.jpeg";
-import image3 from "../../assets/workphotos/image3.jpeg";
-import image4 from "../../assets/workphotos/image4.jpeg";
-import image5 from "../../assets/workphotos/image5.jpeg";
-import image6 from "../../assets/workphotos/image6.jpeg";
+// import image1 from "../../assets/workphotos/image1.jpeg";
+// import image2 from "../../assets/workphotos/image2.jpeg";
+// import image3 from "../../assets/workphotos/image3.jpeg";
+// import image4 from "../../assets/workphotos/image4.jpeg";
+// import image5 from "../../assets/workphotos/image5.jpeg";
+// import image6 from "../../assets/workphotos/image6.jpeg";
 import Words_from_our_cust from "../words_from_our_cust.j/Words_from_our_cust";
 import Footer from "../footer/Footer";
 
@@ -121,9 +121,9 @@ export default function Home() {
                 <p className="mt-4 mb-4">
                   Discover the story behind <b>Sai engineering</b> , from our
                   humble beginnings to becoming a leader in the crane machine
-                  industry.At <b> Sai engineering</b> , we're committed to
+                  industry.At <b> Sai engineering</b> , we&apos;re committed to
                   providing top-quality products and exceptional customer
-                  service."
+                  service &quot;
                 </p>
               </div>
             </div>
@@ -131,14 +131,14 @@ export default function Home() {
             <div className="row mt-4 cus-center ">
               <hr />
               <div className="col-sm-4">
-                <h4>150</h4>
+                <h4>500+</h4>
 
                 <h5>Customers</h5>
               </div>
               <hr />
 
               <div className="col-sm-4">
-                <h4>10</h4>
+                <h4>10+</h4>
 
                 <h5>Active sites </h5>
               </div>
