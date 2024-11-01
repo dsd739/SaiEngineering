@@ -10,8 +10,12 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Crane and shades work in Rajasthan</title>
-        <meta name="description" content="xyz" />
+        <title>Crane and shades work in udaipur Rajasthan</title>
+        <meta
+          name="description"
+          content="Sai engineering, your premier destination for
+                    crane machine and Shed Construction Services"
+        />
         <link rel="canonical" href="/" />
       </Helmet>
       <Home />
