@@ -14,7 +14,7 @@ COPY --from=app /app/dist /usr/share/nginx/html
 
 # Install Certbot and necessary dependencies
 # Append file1.txt to file2.txt
-RUN cat --from=app /app/nginx.conf >> /etc/nginx/nginx.conf
+RUN cp --from=app /app/nginx.conf  /etc/nginx/nginx.conf
 
 # Copy custom Nginx configuration
 #COPY nginx.conf /etc/nginx/nginx.conf
